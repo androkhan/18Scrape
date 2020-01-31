@@ -34,7 +34,7 @@ app.use(routes);
 var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/mongoHeadlines";
 
 // Connect to the Mongo DB
-mongoose.connect(MONGODB_URI);
+mongoose.connect(MONGODB_URI);git add
 
 // Listen on the port
 app.listen(PORT, function() {
